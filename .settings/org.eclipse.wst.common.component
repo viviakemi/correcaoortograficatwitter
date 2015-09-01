@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="teste_vivi">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <dependent-module archiveName="twitter4j-core-4.0.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/viviani.kasahara/.m2/repository/org/twitter4j/twitter4j-core/4.0.3/twitter4j-core-4.0.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="twitter4j-stream-4.0.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/viviani.kasahara/.m2/repository/org/twitter4j/twitter4j-stream/4.0.3/twitter4j-stream-4.0.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hunspell-bridj-1.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/viviani.kasahara/.m2/repository/com/atlascopco/hunspell-bridj/1.0.0/hunspell-bridj-1.0.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bridj-0.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/viviani.kasahara/.m2/repository/com/nativelibs4java/bridj/0.6.1/bridj-0.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="teste_vivi"/>
+        <property name="java-output-path" value="/teste_vivi/target/classes"/>
+    </wb-module>
+</project-modules>
